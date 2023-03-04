@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ececec;
+  width: 100%;
+  height: 100%;
+  overflow: overlay;
+}
+
+#logoInformatica {
+  width: 100px;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding: 1.5rem;
+  height: auto;
+}
+
+#cursos {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  border: solid 1px black;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: solid 1px rgb(0, 0, 107);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#cursos:hover {
+  color: white;
+  background-color: rgb(0, 0, 107);
+}
+
+#cursosLink {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#estagio {
+  border-radius: 5px;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+  width: 60%;
+  background-color: rgb(0, 0, 107);
+}
+#estagio h1 {
+  padding-bottom: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
+#estagio p {
+  color: #fff;
+}
+
+#btns {
+  width: 65%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#aluno,
+#professor {
+  text-align: center;
+  width: 120px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: solid 1px rgb(0, 0, 107);
+  transition: 0.3s;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#aluno:hover {
+  color: white;
+  background-color: rgb(0, 0, 107);
+}
+
+#professor:hover {
+  color: white;
+  background-color: rgb(0, 0, 107);
+}
+
+#youtube,#at {
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: solid 1px rgb(255, 0, 0);
+  transition: 0.3s;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#youtube:hover {
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+#at:hover {
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+#info {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+#infoDiv {
+  display: flex;
+  justify-content: center;
+  border: solid 2px black;
+  padding: 1.5rem;
+  width: 90%;
+  background-color: rgb(0, 0, 107);
+
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table a {
+  color: rgb(255, 255, 255);
+}
+table h2 {
+  color: rgb(255, 255, 255);
+}
+
+tr {
+  border-top: solid 1px rgb(255, 255, 255);
+  border-bottom: solid 1px rgb(255, 255, 255);
+}
+td a {
+  border: none;
+}
+table a {
+  font-size: larger;
+}
+
+td,
+th {
+  padding: 7px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  width: 100%;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: rgb(0, 0, 107);
+  bottom: 0;
+}
+
+#footer img {
+  padding: 1rem 2rem;
+  width: 180px;
+}
